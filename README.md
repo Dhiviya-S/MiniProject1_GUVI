@@ -4,37 +4,34 @@ Test script is written using Selenium with Python and Pytest along with the Page
 
 **Project Architecture :**
 
-MiniProject1/   
-
-├── Pages/        
-│   ├── __init__.py    
-│   ├── base_page.py  
-│   ├── login_page.py       
-│   ├── home_page.py       
-
-│ 
- Tests/  
-│   ├── __init__.py  
-│   ├── conftest.py  
-│   ├── test_01_url.py        
-│   ├── test_02_title.py    
-│   ├── test_03_login_button.py     
-│   ├── test_04_signup_button.py     
-│   ├── test_05_signin.py     
-│   ├── test_06_valid_login.py     
-│   ├── test_07_invalid_login.py     
-│   ├── test_08_menu_icons.py     
-│   ├── test_09_dobby_assistant.py     
-│   ├── test_10_logout.py        
+MiniProject1/
 │
-
-├── Utils/  
-│   ├── config.py   
-│   ├── __init__.py        
+├── Pages/
+│ ├── init.py
+│ ├── base_page.py
+│ ├── login_page.py
+│ ├── home_page.py
 │
-
-├── requirements.txt  
-├── README.md  
+├── Tests/
+│ ├── init.py
+│ ├── conftest.py
+│ ├── test_01_url.py
+│ ├── test_02_title.py
+│ ├── test_03_login_button.py
+│ ├── test_04_signup_button.py
+│ ├── test_05_signin.py
+│ ├── test_06_valid_login.py
+│ ├── test_07_invalid_login.py
+│ ├── test_08_menu_icons.py
+│ ├── test_09_dobby_assistant.py
+│ ├── test_10_logout.py
+│
+├── Utils/
+│ ├── init.py
+│ ├── config.py
+│
+├── requirements.txt
+├── README.md
 
 
 **Tools & Technologies:**
