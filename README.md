@@ -136,7 +136,7 @@ To execute all the test files and generate html report,
 
 To execute single file and generate html report,
 
-	>pytest -v -s Tests/test_01_url.py   --html = report1.html   --self-contained-html
+	>pytest -v -s Tests/test_01_url.py   --html = case01_report.html   --self-contained-html
 
 
 
