@@ -32,7 +32,6 @@ MiniProject1/
 ├── requirements.txt 
 ├── README.md  
 
-
 **Tools & Technologies:**
 *     Selenium WebDriver
 *     Python 
