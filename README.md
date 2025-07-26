@@ -1,4 +1,4 @@
-                              Automation Testing of EdTech Platform Web Application(GUVI Website)
+                        Automation Testing of EdTech Platform Web Application(GUVI Website)
 This project is to automate the testing of the web application https://www.guvi.in by simulating user actions and validating key UI functionalities. The system will interact with the web elements and execute test cases covering both positive and negative scenarios.
 Test script is written using Selenium with Python and Pytest along with the Page Object Model framework(POM). It includes 10 detailed test cases  like verifying page behavior, accessibility of critical elements, navigation flows, and login and logout functionalities.
 
@@ -91,10 +91,13 @@ Test Case 10: Logout functionality
 
 2.To create a virtual environment,
 	>python -m venv venv
+ 
 	>Source venv/bin/activate(macOS)
+ 
 	>venv\scripts\activate(Windows)
 
 3.To install the specific version,
+
 	>pip install -r requirements.txt
 
 4.To execute all the test files,
@@ -108,12 +111,15 @@ Test Case 10: Logout functionality
 
 **To Generate HTML Report:**
 To install pytest–html package
+
 	>pip install pytest–html
 
 To execute all the test files and generate html report,
+
 	>pytest -v -s Tests/   --html = reports.html    --self-contained-html
 
 To execute single file and generate html report,
+
 	>pytest -v -s Tests/test_01_url.py   --html = report1.html   --self-contained-html
 
 
