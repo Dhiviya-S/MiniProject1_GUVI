@@ -1,37 +1,40 @@
-                        Automation Testing of EdTech Platform Web Application(GUVI Website)
+                         Automation Testing of EdTech Platform Web Application(GUVI Website)
 This project is to automate the testing of the web application https://www.guvi.in by simulating user actions and validating key UI functionalities. The system will interact with the web elements and execute test cases covering both positive and negative scenarios.
 Test script is written using Selenium with Python and Pytest along with the Page Object Model framework(POM). It includes 10 detailed test cases  like verifying page behavior, accessibility of critical elements, navigation flows, and login and logout functionalities.
 
 **Project Architecture :**
 
-MiniProject1/
+MiniProject1/   
+├── Pages/        
+│   ├── __init__.py    
+│   ├── base_page.py  
+│   ├── login_page.py       
+│   ├── home_page.py       
+
+│ 
+├──Tests/  
+│   ├── __init__.py  
+│   ├── conftest.py  
+│   ├── test_01_url.py        
+│   ├── test_02_title.py    
+│   ├── test_03_login_button.py     
+│   ├── test_04_signup_button.py     
+│   ├── test_05_signin.py     
+│   ├── test_06_valid_login.py     
+│   ├── test_07_invalid_login.py     
+│   ├── test_08_menu_icons.py     
+│   ├── test_09_dobby_assistant.py     
+│   ├── test_10_logout.py        
 │
-├── Pages/
-│   ├── __init__.py
-│   ├── base_page.py
-│   ├── login_page.py
-│   ├── home_page.py
+
+├── Utils/  
+│   ├── config.py   
+│   ├── __init__.py        
 │
-├── Tests/
-│   ├── __init__.py
-│   ├── conftest.py
-│   ├── test_01_url.py
-│   ├── test_02_title.py
-│   ├── test_03_login_button.py
-│   ├── test_04_signup_button.py
-│   ├── test_05_signin.py
-│   ├── test_06_valid_login.py
-│   ├── test_07_invalid_login.py
-│   ├── test_08_menu_icons.py
-│   ├── test_09_dobby_assistant.py
-│   ├── test_10_logout.py
-│
-├── Utils/
-│   ├── __init__.py
-│   ├── config.py
-│
-├── requirements.txt
-├── README.md
+
+├── requirements.txt  
+├── README.md  
+
 
 
 **Tools & Technologies:**
