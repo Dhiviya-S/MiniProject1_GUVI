@@ -2,6 +2,7 @@
 This project is to automate the testing of the web application https://www.guvi.in by simulating user actions and validating key UI functionalities. The system will interact with the web elements and execute test cases covering both positive and negative scenarios.
 Test script is written using Selenium with Python and Pytest along with the Page Object Model framework(POM). It includes 10 detailed test cases  like verifying page behavior, accessibility of critical elements, navigation flows, and login and logout functionalities.
 
+
 **Project Architecture :**
 
 MiniProject1/
