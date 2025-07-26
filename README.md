@@ -4,33 +4,35 @@ Test script is written using Selenium with Python and Pytest along with the Page
 
 **Project Architecture :**
 
-MiniProject1/   
-├── Pages/        
+MiniProject1/
+│
+├── Pages/
 │   ├── __init__.py
-│   ├── base_page.py  
-│   ├── login_page.py       
-│   ├── home_page.py       
+│   ├── base_page.py
+│   ├── login_page.py
+│   ├── home_page.py
 │
 ├── Tests/
 │   ├── __init__.py
 │   ├── conftest.py
-│   ├── test_01_url.py        
-│   ├── test_02_title.py    
-│   ├── test_03_login_button.py     
-│   ├── test_04_signup_button.py     
-│   ├── test_05_signin.py     
-│   ├── test_06_valid_login.py     
-│   ├── test_07_invalid_login.py     
-│   ├── test_08_menu_icons.py     
-│   ├── test_09_dobby_assistant.py     
-│   ├── test_10_logout.py        
+│   ├── test_01_url.py
+│   ├── test_02_title.py
+│   ├── test_03_login_button.py
+│   ├── test_04_signup_button.py
+│   ├── test_05_signin.py
+│   ├── test_06_valid_login.py
+│   ├── test_07_invalid_login.py
+│   ├── test_08_menu_icons.py
+│   ├── test_09_dobby_assistant.py
+│   ├── test_10_logout.py
 │
 ├── Utils/
-│   ├── config.py   
-│   ├── __init__.py        
+│   ├── __init__.py
+│   ├── config.py
 │
-├── requirements.txt 
-├── README.md  
+├── requirements.txt
+├── README.md
+
 
 **Tools & Technologies:**
 *     Selenium WebDriver
