@@ -90,6 +90,7 @@ Test Case 10: Logout functionality
 1.Ensure Selenium,Python and any Browser(Chrome,Firefox,Edge) installed in your system. 
 
 2.To create a virtual environment,
+
 	>python -m venv venv
  
 	>Source venv/bin/activate(macOS)
@@ -103,9 +104,9 @@ Test Case 10: Logout functionality
 4.To execute all the test files,
 	>pytest -v -s Tests/
 
-	>pytest pytest -v -s Tests/test_01_url.py(specific file)
+	>pytest pytest -v -s Tests/test_01_url.py(for any specific file)
 
-	>pytest pytest -v -s Tests/test_01_url.py::test_valid_url(specific method in a test file)
+	>pytest pytest -v -s Tests/test_01_url.py::test_valid_url(for specific method in a test file)
 
 
 
