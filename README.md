@@ -7,13 +7,16 @@ Test script is written using Selenium with Python and Pytest along with the Page
 MiniProject1/   
 ├── Pages/        
 │   ├── __init__.py
+
 │   ├── base_page.py  
 │   ├── login_page.py       
 │   ├── home_page.py       
 │
 ├── Tests/
 │   ├── __init__.py
+
 │   ├── conftest.py
+
 │   ├── test_01_url.py        
 │   ├── test_02_title.py    
 │   ├── test_03_login_button.py     
