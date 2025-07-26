@@ -5,15 +5,15 @@ Test script is written using Selenium with Python and Pytest along with the Page
 
 **Project Architecture :**
 
-MiniProject1/
+**MiniProject1/**
 │
-├── Pages/
+├── **Pages/**
 │   ├── __init__.py
 │   ├── base_page.py
 │   ├── login_page.py
 │   ├── home_page.py
 │
-├── Tests/
+├── **Tests/**
 │   ├── __init__.py
 │   ├── conftest.py
 │   ├── test_01_url.py
@@ -27,7 +27,7 @@ MiniProject1/
 │   ├── test_09_dobby_assistant.py
 │   ├── test_10_logout.py
 │
-├── Utils/
+├── **Utils/**
 │   ├── __init__.py
 │   ├── config.py
 │
