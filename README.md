@@ -119,6 +119,7 @@ Test Case 10: Logout functionality
 	>pip install -r requirements.txt
 
 4.To execute all the test files,
+
 	>pytest -v -s Tests/
 
 	>pytest pytest -v -s Tests/test_01_url.py(for any specific file)
