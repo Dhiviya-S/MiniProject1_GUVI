@@ -46,47 +46,47 @@ Pytest HTML Reports
 Test Suite : 
 
 Test Case 1: Check whether the URL https://www.guvi.in is valid or not.
-Positive case: Properly opens chrome and navigates to GUVI
-Negative case: Open Chrome but doesn’t navigate to GUVI
+	Positive case: Properly opens chrome and navigates to GUVI
+	Negative case: Open Chrome but doesn’t navigate to GUVI
 
 
 Test Case 2: Verify whether the title of the webpage is correct.
-Positive case: Exactly matches the title “GUVI | Learn to code in your native language”
-Negative case: Doesn’t match the given title and displays an error message.
+	Positive case: Exactly matches the title “GUVI | Learn to code in your native language”
+	Negative case: Doesn’t match the given title and displays an error message.
 
 Test Case 3:Login button visibility and clickability
-Assert login button is visible and interactable
-Clicking login button navigates to https://www.guvi.in/sign-in/
+	Assert login button is visible and interactable
+	Clicking login button navigates to https://www.guvi.in/sign-in/
 
 Test Case 4: SignUp button visibility and clickability
-Assert signup button is visible and interactable
-Clicking signup button navigates to https://www.guvi.in/register/
+	Assert signup button is visible and interactable
+	Clicking signup button navigates to https://www.guvi.in/register/
 
 Test Case 5:  Navigation to the Sign-In page via the Sign-Up button.
-Clicking signup button navigates to https://www.guvi.in/register/
-Checks the redirected url matches the sign-in page.
+	Clicking signup button navigates to https://www.guvi.in/register/
+	Checks the redirected url matches the sign-in page.
 
 Test Case 6: Login functionality with valid credentials.
-Enters valid email and password and clicks login button
-Enters the dashboard/profile page
-Check the dashboard url https://www.guvi.in/courses/?current_tab=myCourses
+	Enters valid email and password and clicks login button
+	Enters the dashboard/profile page
+	Check the dashboard url https://www.guvi.in/courses/?current_tab=myCourses
 
 Test Case 7: Login functionality with invalid credentials.
-Enters invalid email and password and clicks login button
-Displays error message as “Incorrect username and password”
+	Enters invalid email and password and clicks login button
+	Displays error message as “Incorrect username and password”
 
 Test Case 8: Check menu items like “Courses”, “LIVE Classes”, and “Practice” are displayed.
-Checks  “Courses”, “LIVE Classes”, and “Practice” are visible and interactable.
-If menu items are not  found, exceptions are raised.
+	Checks  “Courses”, “LIVE Classes”, and “Practice” are visible and interactable.
+	If menu items are not  found, exceptions are raised.
 
 Test Case 9: Dobby Guvi Assistant is present on the page.
-Checks  Dobby Guvi Assistant is visible and interactable.
+	Checks  Dobby Guvi Assistant is visible and interactable.
 
 Test Case 10: Logout functionality
-Enters valid data and clicks login.
-Moves to dashboard page and clicks the profile menu
-Dropdown appears and clicks Sign out.
-After Sign out, it re-enters the login page again.
+	Enters valid data and clicks login.
+	Moves to dashboard page and clicks the profile menu
+	Dropdown appears and clicks Sign out.
+	After Sign out, it re-enters the login page again.
 
 Instructions:
 
