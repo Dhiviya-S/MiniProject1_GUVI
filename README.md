@@ -124,7 +124,6 @@ Test Case 10: Logout functionality
 	>pytest pytest -v -s Tests/test_01_url.py::test_valid_url(for specific method in a test file)
 
 
-
 **To Generate HTML Report:**
 
 To install pytest–html package
