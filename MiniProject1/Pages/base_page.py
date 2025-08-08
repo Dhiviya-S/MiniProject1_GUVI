@@ -19,7 +19,7 @@ class BasePage:
         self.driver = driver
 
 
-    # Finding the element using the locator with timeout of 5 seconds using explicit wait
+    # Finding the element using the locator with timeout of 10 seconds using explicit wait
     def find_element(self, locator, timeout=10):
         # Explicit wait until the element is located else raises TimeOutException
         try:
