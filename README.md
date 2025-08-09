@@ -110,7 +110,7 @@ Test Case 10: Logout functionality
 
 	>python -m venv venv
  
-	>Source venv/bin/activate(macOS)
+	>source venv/bin/activate(macOS)
  
 	>venv\scripts\activate(Windows)
 
