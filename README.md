@@ -135,11 +135,11 @@ To install pytest–html package
 
 To execute all the test files and generate html report,
 
-	>pytest -v -s Tests/   --html = reports.html    --self-contained-html
+	>pytest -v -s Tests/   --html=reports.html    --self-contained-html
 
 To execute single file and generate html report,
 
-	>pytest -v -s Tests/test_01_url.py   --html = case01_report.html   --self-contained-html
+	>pytest -v -s Tests/test_01_url.py   --html=case01_report.html   --self-contained-html
 
 
 
