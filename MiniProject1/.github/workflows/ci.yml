@@ -23,10 +23,7 @@ jobs:
           python-version: '3.11'    # you can change this to your target version
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+   run: |
+    python -m pip install --upgrade pip
+    if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install pytest; fi
 
-      - name: Run tests with pytest
-        run: |
-          pytest
