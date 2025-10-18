@@ -15,7 +15,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 dir('MiniProject1') {
-                    sh 'python3 Tests/'
+                    sh 'pytest Tests/'
                 }
         }
     }
