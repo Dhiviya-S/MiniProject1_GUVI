@@ -14,7 +14,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh '"$PYTHON" -m Tests'
+                sh '"$PYTHON" -m Tests/'
             }
         }
     }
