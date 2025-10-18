@@ -9,7 +9,6 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'main', url: 'https://github.com/Dhiviya-S/MiniProject1_GUVI'
-'
             }
         }
 
