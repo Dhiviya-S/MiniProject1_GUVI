@@ -8,14 +8,16 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'main', url: 'https://github.com/Dhiviya-S/MiniProject1_GUVI/tree/main/MiniProject1'
+                git branch: 'main', url: 'https://github.com/Dhiviya-S/MiniProject1_GUVI.git
+'
             }
         }
 
         stage('Run Tests') {
             steps {
-                sh '"$PYTHON" -m Tests/'
-            }
+                dir('MiniProject1') {
+                    sh 'python3 Tests/'
+                }
         }
     }
 }
