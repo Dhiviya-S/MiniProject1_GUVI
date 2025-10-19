@@ -20,7 +20,7 @@ pipeline {
                 dir('MiniProject1') {
                     sh '''
                         source venv/bin/activate
-                        pytest -v -s Tests/ --html=reports.html --self-contained-html
+                        pytest -v -s Tests/ 
                     '''
                 }
             }
