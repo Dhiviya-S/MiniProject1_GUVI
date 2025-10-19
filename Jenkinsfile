@@ -15,7 +15,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 dir('MiniProject1') {
-                    sh 'pytest Tests/'
+                     sh 'pytest -v -s Tests/ --html=reports.html --self-contained-html'
                 }
         }
     }
