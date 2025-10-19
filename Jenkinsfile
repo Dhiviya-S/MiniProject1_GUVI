@@ -24,20 +24,6 @@ pipeline {
                     '''
                 }
             }
-        }
-
-        stage('Archive Report') {
-            steps {
-                dir('MiniProject1') {
-                    archiveArtifacts artifacts: 'reports.html', fingerprint: true
-                }
-            }
-        }
-    }
-
-    post {
-        always {
-            echo 'Build complete'
-        }
+        }  
     }
 }
