@@ -1,23 +1,43 @@
 pipeline {
     agent any
 
-    environment {
-        PYTHON = '/Library/Frameworks/Python.framework/Versions/3.11/bin/python3'  // Use actual path from `which python3`
-    }
-
     stages {
-        stage('Build') {
+        stage('Setup Python Environment') {
             steps {
-                git branch: 'main', url: 'https://github.com/Dhiviya-S/MiniProject1_GUVI'
+                dir('MiniProject1') {
+                    sh '''
+                        python3 -m venv venv
+                        source venv/bin/activate
+                        pip install --upgrade pip
+                        pip install -r requirements.txt
+                    '''
+                }
             }
         }
 
         stage('Run Tests') {
             steps {
                 dir('MiniProject1') {
-                     sh 'pytest -v -s Tests/ --html=reports.html --self-contained-html'
+                    sh '''
+                        source venv/bin/activate
+                        pytest -v -s Tests/ --html=reports.html --self-contained-html
+                    '''
                 }
+            }
+        }
+
+        stage('Archive Report') {
+            steps {
+                dir('MiniProject1') {
+                    archiveArtifacts artifacts: 'reports.html', fingerprint: true
+                }
+            }
         }
     }
-}
+
+    post {
+        always {
+            echo 'Build complete'
+        }
+    }
 }
